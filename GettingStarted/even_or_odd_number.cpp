@@ -2,14 +2,7 @@
 using namespace std;
 void evenOdd(int number)
 {
-	if(number%2==0)
-	{
-		cout<<"Even Number"<<endl;
-	}
-	else
-	{
-		cout<<"Odd Number";
-	}	  	
+	cout << ((number%2==0) ? "Even Number" : "Odd Number");
 }
 int main()
 {
