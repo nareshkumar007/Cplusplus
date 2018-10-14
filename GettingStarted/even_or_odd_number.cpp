@@ -10,6 +10,5 @@ int main()
 	cout<<"Enter a Number"<<endl;
 	cin>>number;
 	evenOdd(number);
-	
 	return 0;
 }
